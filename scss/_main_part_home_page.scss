@@ -1,0 +1,234 @@
+// About me Section --> Home Page
+#about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 5rem;
+  .about-me-section {
+    padding: 3rem 0;
+    height: auto;
+    width: $website-width;
+    background: transparent;
+    color: $light-color;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(90%, 10%);
+    grid-template-areas:
+      "photo"
+      "text";
+    align-items: center;
+    justify-content: center;
+    // border: white 1px solid;
+    grid-gap: 2rem;
+
+    .photo {
+      // background: crimson;
+      height: 100%;
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: auto;
+      .photo__img {
+        max-width: 100%;
+        align-self: center;
+        justify-content: center;
+        position: relative;
+      }
+    }
+    .text {
+      background: $light-color;
+      height: 100%;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: auto;
+      border-radius: 5px;
+
+      h1 {
+        height: 100%;
+        color: $dark-color;
+        font-size: 1.5rem;
+        text-align: left;
+        align-self: flex-start;
+        padding-left: 1rem;
+      }
+    }
+  }
+}
+
+// Carousel-bootstrap --> Home page
+.container {
+  .carousel-bootstrap {
+    padding-bottom: 2rem;
+    // margin-bottom: 5rem;
+    h1 {
+      color: $light-color;
+      text-align: center;
+      padding-bottom: 1.5rem;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+      font-size: 3rem;
+      margin: auto;
+    }
+
+    .lead {
+      color: $light-color;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+      font-size: 2rem;
+      margin: auto;
+    }
+
+    padding-top: 5rem;
+    height: 100vh;
+    width: 1322px;
+    margin: auto;
+
+    #carouselExampleCaptions {
+      // margin: 1.5rem 0;
+      align-self: center;
+      max-width: 100%;
+      height: 82vh;
+      .carousel-item {
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        margin: auto;
+
+        h5,
+        p {
+          color: $medium-color;
+          font-weight: bold;
+          font-size: 3rem;
+          // text-shadow: 0 0 10px rgba(160, 175, 20, 0.35);
+        }
+        p {
+          font-size: 2rem;
+          color: $dark-color;
+        }
+      }
+    }
+  }
+}
+
+// Image gallery --> Home Page
+.photo-content {
+  padding: 5rem 0;
+  // margin-top: 5rem;
+  h1 {
+    color: $light-color;
+    text-align: center;
+    // padding-top: 3rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+    font-size: 3rem;
+    margin: auto;
+  }
+
+  .lead {
+    color: $light-color;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+    font-size: 2rem;
+    margin: auto;
+  }
+}
+.image-gallery {
+  // padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+    "img-1 img-1 img-2 img-2 img-3"
+    "img-1 img-1 img-4 img-4 img-5"
+    "img-6 img-6 img-7 img-8 img-8";
+
+  a {
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    &:hover i,
+    &:hover::before {
+      opacity: 1;
+    }
+  }
+
+  .img-1 {
+    grid-area: img-1;
+    min-height: 51.5rem;
+    background-image: url("/dist/img/Gallery/1.jpg");
+  }
+
+  .img-2 {
+    grid-area: img-2;
+    background-image: url("/dist/img/Gallery/2.jpg");
+  }
+
+  .img-3 {
+    grid-area: img-3;
+    background-image: url("/dist/img/Gallery/3.jpg");
+  }
+
+  .img-4 {
+    grid-area: img-4;
+    background-image: url("/dist/img/Gallery/4.jpg");
+  }
+
+  .img-5 {
+    grid-area: img-5;
+    background-image: url("/dist/img/Gallery/5.jpg");
+  }
+
+  .img-6 {
+    grid-area: img-6;
+    background-image: url("/dist/img/Gallery/6.jpg");
+  }
+
+  .img-7 {
+    grid-area: img-7;
+    background-image: url("/dist/img/Gallery/7.jpg");
+  }
+
+  .img-8 {
+    grid-area: img-8;
+    background-image: url("/dist/img/Gallery/8.jpg");
+  }
+
+  i {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 3rem;
+    position: relative;
+    z-index: 100;
+    padding: 1rem 3rem;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0.4rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+}

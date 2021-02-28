@@ -1,0 +1,291 @@
+@import "config";
+@import "utilities";
+@import "main_part_home_page";
+@import "portfolio";
+
+// general styles
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  background: $bg-image no-repeat center right/cover;
+}
+
+a {
+  text-decoration: none;
+  color: $light-color;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+// Logo --> In case I make logo
+// #logo {
+//   width: 70px;
+//   height: 70px;
+//   color: #fff;
+//   text-transform: uppercase;
+// }
+
+#stars {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#hero {
+  // max-width: $website-width;
+  padding: 0 5rem;
+}
+
+// Main nav --> for all pages
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  // padding: 1.5rem;
+  align-items: center;
+  z-index: 9999;
+
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+    position: relative;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+    position: relative;
+
+    &:hover {
+      border-color: $medium-color;
+    }
+
+    &.current {
+      border-color: $main-color;
+    }
+  }
+}
+
+// Header
+#header {
+  // Header --> Home Page
+  &-home {
+    height: 0vh;
+    color: $light-color;
+    z-index: 9999;
+
+    // Header content
+    .header-content {
+      text-align: left;
+      padding-top: 15%;
+      display: inline-block;
+    }
+
+    h1 {
+      font-size: 7rem;
+      line-height: 1.2;
+      position: relative;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+    }
+
+    a {
+      position: relative;
+    }
+  }
+
+  // Header --> About Me Page
+  &-inner {
+    height: 0px;
+    color: $light-color;
+    z-index: 9999;
+    .container {
+      height: 100vh;
+      max-width: $website-width;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      main {
+        max-height: 100vh;
+        .text-about-me {
+          width: 700px;
+          align-self: center;
+          justify-content: center;
+          text-align: center;
+          margin: auto;
+          h1 {
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+          }
+          p {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            line-height: 5rem;
+            font-size: 5rem;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+          }
+        }
+      }
+    }
+  }
+
+  // Header --> Project Page
+  &-projects {
+    height: 0px;
+    color: $light-color;
+    z-index: 9999;
+    .container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .text-to-scroll {
+      h1 {
+        color: $light-color;
+        text-align: center;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+        font-size: 5rem;
+      }
+    }
+
+    .section {
+      height: 5vh;
+      position: relative;
+      width: 100%;
+    }
+
+    .section::before {
+      animation: bounce 1s ease infinite;
+      bottom: 1rem;
+      color: $light-color;
+      content: "╲╱";
+      font-size: 2rem;
+      height: 4rem;
+      left: 50%;
+      letter-spacing: -1px;
+      line-height: 4rem;
+      margin-left: -3rem;
+      opacity: 0.8;
+      position: absolute;
+      text-align: center;
+      width: 6rem;
+    }
+
+    @keyframes bounce {
+      50% {
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  // Header --> Contact Me Page
+  &-inner {
+    height: 0px;
+    color: $light-color;
+    z-index: 9999;
+    .container {
+      height: 100vh;
+      max-width: $website-width;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      main {
+        max-height: 100vh;
+        .text-about-me {
+          width: 700px;
+          align-self: center;
+          justify-content: center;
+          text-align: center;
+          margin: auto;
+          h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+          }
+          p {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            line-height: 5rem;
+            font-size: 3rem;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Footer - for all pages
+#main-footer {
+  background: transparent;
+  color: $light-color;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+
+  p {
+    margin: 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+
+    .fab {
+      margin-right: 1rem;
+      // border: 1px $light-color solid;
+      border-radius: 50%;
+      text-align: center;
+      padding: 0.5rem;
+
+      &:hover {
+        transform: scale(2);
+      }
+    }
+  }
+}
+
+// Import Media Queries
+@import "media";
