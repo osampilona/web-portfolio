@@ -1,0 +1,47 @@
+[33mcommit 709881aae32a59999e6a3a927d0a15e9429307ee[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 15:27:57 2021 +0100
+
+    Back to png
+
+[33mcommit c2dc176d1b23c417337c857fa8260cb2712cbec2[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 15:22:36 2021 +0100
+
+    Pictures returned back to .png
+
+[33mcommit b1fa70dab4302a9a94ef1f7f0c28b0ac81fadf6f[m[33m ([m[1;32moldcommit[m[33m)[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 14:41:04 2021 +0100
+
+    Corrections for gallery path
+
+[33mcommit f15aa5c24338e702255441a5250e25d7fa972985[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 14:05:27 2021 +0100
+
+    Changed pahts for gallery in index file
+
+[33mcommit 4f725d9faaf9714cd581ae7f3c59db6aebc865ca[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 14:02:36 2021 +0100
+
+    Changed path of photos in gallery
+
+[33mcommit 00b564324a99e1c3efea1ff7cf4f9642357ea6dc[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 13:59:03 2021 +0100
+
+    Changed photos paths
+
+[33mcommit 378b857c2121204ef83a75f783885443639251b4[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 13:48:33 2021 +0100
+
+    Changed photos from carousel and gallery from jpg to png, because it didn't want to show them a jpg
+
+[33mcommit 821bcf1aa7fe43082ce3b311e47921da3aa3f1cc[m
+Author: osampilona <brzicamartina@gmail.com>
+Date:   Sun Feb 28 13:00:13 2021 +0100
+
+    New deploy

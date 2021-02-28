@@ -149,8 +149,6 @@
     "img-1 img-1 img-2 img-2 img-3"
     "img-1 img-1 img-4 img-4 img-5"
     "img-6 img-6 img-7 img-8 img-8";
-  // position: relative;
-  // margin: auto;
 
   a {
     width: 100%;
@@ -184,42 +182,42 @@
   .img-1 {
     grid-area: img-1;
     min-height: 51.5rem;
-    background-image: url("../dist/img/Gallery/1.png");
+    background-image: url("../dist/img/gallery/1.jpg");
   }
 
   .img-2 {
     grid-area: img-2;
-    background-image: url("../dist/img/Gallery/2.png");
+    background-image: url("../dist/img/gallery/2.jpg");
   }
 
   .img-3 {
     grid-area: img-3;
-    background-image: url("../dist/img/Gallery/3.png");
+    background-image: url("../dist/img/gallery/3.jpg");
   }
 
   .img-4 {
     grid-area: img-4;
-    background-image: url("../dist/img/Gallery/4.png");
+    background-image: url("../dist/img/gallery/4.jpg");
   }
 
   .img-5 {
     grid-area: img-5;
-    background-image: url("../dist/img/Gallery/5.png");
+    background-image: url("../dist/img/gallery/5.jpg");
   }
 
   .img-6 {
     grid-area: img-6;
-    background-image: url("../dist/img/Gallery/6.png");
+    background-image: url("../dist/img/gallery/6.jpg");
   }
 
   .img-7 {
     grid-area: img-7;
-    background-image: url("../dist/img/Gallery/7.png");
+    background-image: url("../dist/img/gallery/7.jpg");
   }
 
   .img-8 {
     grid-area: img-8;
-    background-image: url("../dist/img/Gallery/8.png");
+    background-image: url("../dist/img/gallery/8.jpg");
   }
 
   i {
