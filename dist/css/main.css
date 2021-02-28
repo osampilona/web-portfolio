@@ -175,7 +175,7 @@ input[class^="btn-"]:hover {
   grid-template-areas: "img-1 img-1 img-2 img-2 img-3" "img-1 img-1 img-4 img-4 img-5" "img-6 img-6 img-7 img-8 img-8"; }
   .image-gallery a {
     width: 100%;
-    height: 25rem;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,10 +196,11 @@ input[class^="btn-"]:hover {
       transition: opacity 0.5s; }
     .image-gallery a:hover i, .image-gallery a:hover::before {
       opacity: 1; }
-  .image-gallery .img-1 {
+  .image-gallery .image-1 {
     grid-area: img-1;
     min-height: 51.5rem;
-    background-image: url("/dist/img/gallery/img_1.png"); }
+    width: auto;
+    position: relative; }
   .image-gallery .img-2 {
     grid-area: img-2;
     background-image: url("/dist/img/gallery/img_2.png"); }
@@ -802,13 +803,13 @@ img {
       background-image: url("/dist/img/gallery/img_5.png"); }
     .image-gallery .img-6 {
       grid-area: img-6;
-      background-image: url("../dist/img/gallery/img_6.png"); }
+      background-image: url("/dist/img/gallery/img_6.png"); }
     .image-gallery .img-7 {
       grid-area: img-7;
       background-image: url("/dist/img/gallery/img_7.png"); }
     .image-gallery .img-8 {
       grid-area: img-8;
-      background-image: url("/dist/img/gallery/img_8.png"); }
+      background-image: url("/dist/simg/gallery/img_8.png"); }
     .image-gallery i {
       color: rgba(255, 255, 255, 0.6);
       font-size: 3rem;
