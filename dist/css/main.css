@@ -199,28 +199,28 @@ input[class^="btn-"]:hover {
   .image-gallery .img-1 {
     grid-area: img-1;
     min-height: 51.5rem;
-    background-image: url("/dist/img/Gallery/1.jpg"); }
+    background-image: url("/dist/img/Gallery/1.png"); }
   .image-gallery .img-2 {
     grid-area: img-2;
-    background-image: url("/dist/img/Gallery/2.jpg"); }
+    background-image: url("/dist/img/Gallery/2.png"); }
   .image-gallery .img-3 {
     grid-area: img-3;
-    background-image: url("/dist/img/Gallery/3.jpg"); }
+    background-image: url("/dist/img/Gallery/3.png"); }
   .image-gallery .img-4 {
     grid-area: img-4;
-    background-image: url("/dist/img/Gallery/4.jpg"); }
+    background-image: url("/dist/img/Gallery/4.png"); }
   .image-gallery .img-5 {
     grid-area: img-5;
-    background-image: url("/dist/img/Gallery/5.jpg"); }
+    background-image: url("/dist/img/Gallery/5.png"); }
   .image-gallery .img-6 {
     grid-area: img-6;
-    background-image: url("/dist/img/Gallery/6.jpg"); }
+    background-image: url("/dist/img/Gallery/6.png"); }
   .image-gallery .img-7 {
     grid-area: img-7;
-    background-image: url("/dist/img/Gallery/7.jpg"); }
+    background-image: url("/dist/img/Gallery/7.png"); }
   .image-gallery .img-8 {
     grid-area: img-8;
-    background-image: url("/dist/img/Gallery/8.jpg"); }
+    background-image: url("/dist/img/Gallery/8.png"); }
   .image-gallery i {
     color: rgba(255, 255, 255, 0.6);
     font-size: 3rem;
@@ -787,28 +787,28 @@ img {
         opacity: 1; }
     .image-gallery .img-1 {
       grid-area: img-1;
-      background-image: url("/dist/img/Gallery/1.jpg"); }
+      background-image: url("/dist/img/Gallery/1.png"); }
     .image-gallery .img-2 {
       grid-area: img-2;
-      background-image: url("/dist/img/Gallery/2.jpg"); }
+      background-image: url("/dist/img/Gallery/2.png"); }
     .image-gallery .img-3 {
       grid-area: img-3;
-      background-image: url("/dist/img/Gallery/3.jpg"); }
+      background-image: url("/dist/img/Gallery/3.png"); }
     .image-gallery .img-4 {
       grid-area: img-4;
-      background-image: url("/dist/img/Gallery/4.jpg"); }
+      background-image: url("/dist/img/Gallery/4.png"); }
     .image-gallery .img-5 {
       grid-area: img-5;
-      background-image: url("/dist/img/Gallery/5.jpg"); }
+      background-image: url("/dist/img/Gallery/5.png"); }
     .image-gallery .img-6 {
       grid-area: img-6;
-      background-image: url("/dist/img/Gallery/6.jpg"); }
+      background-image: url("/dist/img/Gallery/6.png"); }
     .image-gallery .img-7 {
       grid-area: img-7;
-      background-image: url("/dist/img/Gallery/7.jpg"); }
+      background-image: url("/dist/img/Gallery/7.png"); }
     .image-gallery .img-8 {
       grid-area: img-8;
-      background-image: url("/dist/img/Gallery/8.jpg"); }
+      background-image: url("/dist/img/Gallery/8.png"); }
     .image-gallery i {
       color: rgba(255, 255, 255, 0.6);
       font-size: 3rem;
@@ -826,7 +826,7 @@ img {
     #stars .header-content {
       padding-top: 50%; }
       #stars .header-content h1 {
-        font-size: 5rem; }
+        font-size: 3rem; }
   #about-me {
     display: flex;
     flex-direction: column;
@@ -993,28 +993,28 @@ img {
         opacity: 1; }
     .image-gallery .img-1 {
       grid-area: img-1;
-      background-image: url("/dist/img/Gallery/1.jpg"); }
+      background-image: url("/dist/img/Gallery/1.png"); }
     .image-gallery .img-2 {
       grid-area: img-2;
-      background-image: url("/dist/img/Gallery/2.jpg"); }
+      background-image: url("/dist/img/Gallery/2.png"); }
     .image-gallery .img-3 {
       grid-area: img-3;
-      background-image: url("/dist/img/Gallery/3.jpg"); }
+      background-image: url("/dist/img/Gallery/3.png"); }
     .image-gallery .img-4 {
       grid-area: img-4;
-      background-image: url("/dist/img/Gallery/4.jpg"); }
+      background-image: url("/dist/img/Gallery/4.png"); }
     .image-gallery .img-5 {
       grid-area: img-5;
-      background-image: url("/dist/img/Gallery/5.jpg"); }
+      background-image: url("/dist/img/Gallery/5.png"); }
     .image-gallery .img-6 {
       grid-area: img-6;
-      background-image: url("/dist/img/Gallery/6.jpg"); }
+      background-image: url("/dist/img/Gallery/6.png"); }
     .image-gallery .img-7 {
       grid-area: img-7;
-      background-image: url("/dist/img/Gallery/7.jpg"); }
+      background-image: url("/dist/img/Gallery/7.png"); }
     .image-gallery .img-8 {
       grid-area: img-8;
-      background-image: url("/dist/img/Gallery/8.jpg"); }
+      background-image: url("/dist/img/Gallery/8.png"); }
     .image-gallery i {
       color: rgba(255, 255, 255, 0.6);
       font-size: 3rem;
@@ -1032,7 +1032,7 @@ img {
     #stars .header-content {
       padding-top: 0; }
       #stars .header-content h1 {
-        font-size: 3rem; }
+        font-size: 1rem; }
   #about-me {
     display: flex;
     flex-direction: column;
@@ -1197,28 +1197,28 @@ img {
         opacity: 1; }
     .image-gallery .img-1 {
       grid-area: img-1;
-      background-image: url("/dist/img/Gallery/1.jpg"); }
+      background-image: url("/dist/img/Gallery/1.png"); }
     .image-gallery .img-2 {
       grid-area: img-2;
-      background-image: url("/dist/img/Gallery/2.jpg"); }
+      background-image: url("/dist/img/Gallery/2.png"); }
     .image-gallery .img-3 {
       grid-area: img-3;
-      background-image: url("/dist/img/Gallery/3.jpg"); }
+      background-image: url("/dist/img/Gallery/3.png"); }
     .image-gallery .img-4 {
       grid-area: img-4;
-      background-image: url("/dist/img/Gallery/4.jpg"); }
+      background-image: url("/dist/img/Gallery/4.png"); }
     .image-gallery .img-5 {
       grid-area: img-5;
-      background-image: url("/dist/img/Gallery/5.jpg"); }
+      background-image: url("/dist/img/Gallery/5.png"); }
     .image-gallery .img-6 {
       grid-area: img-6;
-      background-image: url("/dist/img/Gallery/6.jpg"); }
+      background-image: url("/dist/img/Gallery/6.png"); }
     .image-gallery .img-7 {
       grid-area: img-7;
-      background-image: url("/dist/img/Gallery/7.jpg"); }
+      background-image: url("/dist/img/Gallery/7.png"); }
     .image-gallery .img-8 {
       grid-area: img-8;
-      background-image: url("/dist/img/Gallery/8.jpg"); }
+      background-image: url("/dist/img/Gallery/8.png"); }
     .image-gallery i {
       color: rgba(255, 255, 255, 0.6);
       font-size: 3rem;
