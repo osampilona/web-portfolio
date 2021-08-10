@@ -17,8 +17,9 @@
   color: $light-color;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-template-areas:
+  "ytalent"
     "hotel"
     "finance"
     "news";
@@ -26,7 +27,13 @@
   justify-content: center;
   // border: white 1px solid;
   grid-gap: 5rem;
-
+  
+  .yTalent-web {
+    display: flex;
+    // background-color: yellow;
+    grid-area: hotel;
+    height: 100%;
+  }
   .hotel-web {
     display: flex;
     // background-color: yellow;
@@ -44,6 +51,7 @@
     height: 100%;
   }
 
+  .yTalent-web,
   .hotel-web,
   .finance-web,
   .newsgrid-web {
