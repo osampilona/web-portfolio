@@ -271,7 +271,8 @@ input[class^="btn-"]:hover {
   .web-portfolios .newsgrid-web {
     grid-area: news;
     height: 100%; }
-  .web-portfolios .yt-web .ytalent-web .image,
+  .web-portfolios .yt-web .image,
+  .web-portfolios .ytalent-web .image,
   .web-portfolios .hotel-web .image,
   .web-portfolios .finance-web .image,
   .web-portfolios .newsgrid-web .image {
@@ -280,13 +281,15 @@ input[class^="btn-"]:hover {
     justify-content: center;
     align-items: center;
     position: relative; }
-    .web-portfolios .yt-web .ytalent-web .image .image__img,
+    .web-portfolios .yt-web .image .image__img,
+    .web-portfolios .ytalent-web .image .image__img,
     .web-portfolios .hotel-web .image .image__img,
     .web-portfolios .finance-web .image .image__img,
     .web-portfolios .newsgrid-web .image .image__img {
       max-width: 100%;
       position: relative; }
-    .web-portfolios .yt-web .ytalent-web .image .image__overlay,
+    .web-portfolios .yt-web .image .image__overlay,
+    .web-portfolios .ytalent-web .image .image__overlay,
     .web-portfolios .hotel-web .image .image__overlay,
     .web-portfolios .finance-web .image .image__overlay,
     .web-portfolios .newsgrid-web .image .image__overlay {
@@ -303,28 +306,33 @@ input[class^="btn-"]:hover {
       justify-content: center;
       opacity: 0;
       transition: opacity 0.5s; }
-      .web-portfolios .yt-web .ytalent-web .image .image__overlay--blur,
+      .web-portfolios .yt-web .image .image__overlay--blur,
+      .web-portfolios .ytalent-web .image .image__overlay--blur,
       .web-portfolios .hotel-web .image .image__overlay--blur,
       .web-portfolios .finance-web .image .image__overlay--blur,
       .web-portfolios .newsgrid-web .image .image__overlay--blur {
         backdrop-filter: blur; }
-      .web-portfolios .yt-web .ytalent-web .image .image__overlay > *,
+      .web-portfolios .yt-web .image .image__overlay > *,
+      .web-portfolios .ytalent-web .image .image__overlay > *,
       .web-portfolios .hotel-web .image .image__overlay > *,
       .web-portfolios .finance-web .image .image__overlay > *,
       .web-portfolios .newsgrid-web .image .image__overlay > * {
         transform: translateY(20px);
         transition: transform 0.5s; }
-      .web-portfolios .yt-web .ytalent-web .image .image__overlay > *:hover,
+      .web-portfolios .yt-web .image .image__overlay > *:hover,
+      .web-portfolios .ytalent-web .image .image__overlay > *:hover,
       .web-portfolios .hotel-web .image .image__overlay > *:hover,
       .web-portfolios .finance-web .image .image__overlay > *:hover,
       .web-portfolios .newsgrid-web .image .image__overlay > *:hover {
         transform: translateX(0px); }
-      .web-portfolios .yt-web .ytalent-web .image .image__overlay:hover,
+      .web-portfolios .yt-web .image .image__overlay:hover,
+      .web-portfolios .ytalent-web .image .image__overlay:hover,
       .web-portfolios .hotel-web .image .image__overlay:hover,
       .web-portfolios .finance-web .image .image__overlay:hover,
       .web-portfolios .newsgrid-web .image .image__overlay:hover {
         opacity: 1; }
-      .web-portfolios .yt-web .ytalent-web .image .image__overlay .image__title,
+      .web-portfolios .yt-web .image .image__overlay .image__title,
+      .web-portfolios .ytalent-web .image .image__overlay .image__title,
       .web-portfolios .hotel-web .image .image__overlay .image__title,
       .web-portfolios .finance-web .image .image__overlay .image__title,
       .web-portfolios .newsgrid-web .image .image__overlay .image__title {
@@ -332,7 +340,8 @@ input[class^="btn-"]:hover {
         color: #fbe7d2;
         text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
         text-align: center; }
-      .web-portfolios .yt-web .ytalent-web .image .image__overlay .image__description,
+      .web-portfolios .yt-web .image .image__overlay .image__description,
+      .web-portfolios .ytalent-web .image .image__overlay .image__description,
       .web-portfolios .hotel-web .image .image__overlay .image__description,
       .web-portfolios .finance-web .image .image__overlay .image__description,
       .web-portfolios .newsgrid-web .image .image__overlay .image__description {
